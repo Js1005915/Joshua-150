@@ -1,0 +1,4 @@
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 - Higher or Lower\obj\Debug\net6.0\Exam 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 - Higher or Lower\obj\Debug\net6.0\Exam 1.AssemblyInfoInputs.cache
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 - Higher or Lower\obj\Debug\net6.0\Exam 1.AssemblyInfo.cs
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 - Higher or Lower\obj\Debug\net6.0\Exam 1.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 Test\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 Test\obj\Debug\net6.0\Exam 1 Test.csproj.AssemblyReference.cache
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 Test\obj\Debug\net6.0\Exam 1 Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 Test\obj\Debug\net6.0\Exam 1 Test.AssemblyInfoInputs.cache
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 Test\obj\Debug\net6.0\Exam 1 Test.AssemblyInfo.cs
+C:\Users\js1005915\Downloads\Exam 1 - Student Template-1\Exam 1 - Student Template\Exam 1 Test\obj\Debug\net6.0\Exam 1 Test.csproj.CoreCompileInputs.cache
