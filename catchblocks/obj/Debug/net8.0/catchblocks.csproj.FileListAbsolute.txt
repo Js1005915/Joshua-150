@@ -1,0 +1,14 @@
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\bin\Debug\net8.0\catchblocks.exe
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\bin\Debug\net8.0\catchblocks.deps.json
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\bin\Debug\net8.0\catchblocks.runtimeconfig.json
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\bin\Debug\net8.0\catchblocks.dll
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\bin\Debug\net8.0\catchblocks.pdb
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\catchblocks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\catchblocks.AssemblyInfoInputs.cache
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\catchblocks.AssemblyInfo.cs
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\catchblocks.csproj.CoreCompileInputs.cache
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\catchblocks.dll
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\refint\catchblocks.dll
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\catchblocks.pdb
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\catchblocks.genruntimeconfig.cache
+C:\Users\js1005915\source\repos\catchblocks\catchblocks\obj\Debug\net8.0\ref\catchblocks.dll
