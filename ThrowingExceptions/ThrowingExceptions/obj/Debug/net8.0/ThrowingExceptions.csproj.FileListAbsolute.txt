@@ -1,0 +1,15 @@
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\bin\Debug\net8.0\ThrowingExceptions.exe
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\bin\Debug\net8.0\ThrowingExceptions.deps.json
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\bin\Debug\net8.0\ThrowingExceptions.runtimeconfig.json
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\bin\Debug\net8.0\ThrowingExceptions.dll
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\bin\Debug\net8.0\ThrowingExceptions.pdb
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.AssemblyInfoInputs.cache
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.AssemblyInfo.cs
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.csproj.CoreCompileInputs.cache
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.sourcelink.json
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.dll
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\refint\ThrowingExceptions.dll
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.pdb
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ThrowingExceptions.genruntimeconfig.cache
+C:\Users\js1005915\Documents\GitHub\Joshua-150\ThrowingExceptions\ThrowingExceptions\obj\Debug\net8.0\ref\ThrowingExceptions.dll
