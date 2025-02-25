@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\js1005915\\Downloads\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj": {}
+    "C:\\Users\\js1005915\\Documents\\GitHub\\Joshua-150\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\js1005915\\Downloads\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj": {
+    "C:\\Users\\js1005915\\Documents\\GitHub\\Joshua-150\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\js1005915\\Downloads\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj",
+        "projectUniqueName": "C:\\Users\\js1005915\\Documents\\GitHub\\Joshua-150\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj",
         "projectName": "Exam 1",
-        "projectPath": "C:\\Users\\js1005915\\Downloads\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj",
+        "projectPath": "C:\\Users\\js1005915\\Documents\\GitHub\\Joshua-150\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\Exam 1.csproj",
         "packagesPath": "C:\\Users\\js1005915\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\js1005915\\Downloads\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\obj\\",
+        "outputPath": "C:\\Users\\js1005915\\Documents\\GitHub\\Joshua-150\\Exam 1 - Student Template-1\\Exam 1 - Student Template\\Exam 1 - Higher or Lower\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

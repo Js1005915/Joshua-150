@@ -1,0 +1,14 @@
+C:\Users\js1005915\source\repos\player\player\bin\Debug\net8.0\player.exe
+C:\Users\js1005915\source\repos\player\player\bin\Debug\net8.0\player.deps.json
+C:\Users\js1005915\source\repos\player\player\bin\Debug\net8.0\player.runtimeconfig.json
+C:\Users\js1005915\source\repos\player\player\bin\Debug\net8.0\player.dll
+C:\Users\js1005915\source\repos\player\player\bin\Debug\net8.0\player.pdb
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\player.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\player.AssemblyInfoInputs.cache
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\player.AssemblyInfo.cs
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\player.csproj.CoreCompileInputs.cache
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\player.dll
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\refint\player.dll
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\player.pdb
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\player.genruntimeconfig.cache
+C:\Users\js1005915\source\repos\player\player\obj\Debug\net8.0\ref\player.dll
