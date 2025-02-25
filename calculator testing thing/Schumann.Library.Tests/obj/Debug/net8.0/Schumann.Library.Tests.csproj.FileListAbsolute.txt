@@ -1,0 +1,6 @@
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\Schumann.Library.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_Schumann.Library.Tests
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\Schumann.Library.Tests\obj\Debug\net8.0\Schumann.Library.Tests.csproj.AssemblyReference.cache
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\Schumann.Library.Tests\obj\Debug\net8.0\Schumann.Library.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\Schumann.Library.Tests\obj\Debug\net8.0\Schumann.Library.Tests.AssemblyInfoInputs.cache
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\Schumann.Library.Tests\obj\Debug\net8.0\Schumann.Library.Tests.AssemblyInfo.cs
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\Schumann.Library.Tests\obj\Debug\net8.0\Schumann.Library.Tests.csproj.CoreCompileInputs.cache

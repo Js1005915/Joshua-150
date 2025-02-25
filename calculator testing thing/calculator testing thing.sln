@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculator testing thing", "calculator testing thing\calculator testing thing.csproj", "{C83CD772-E29F-4834-B40C-6DEB0F02BC03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schumann.Library.Tests", "Schumann.Library.Tests\Schumann.Library.Tests.csproj", "{FA9E01C0-A3D7-42E5-BF03-1178E31B30CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C83CD772-E29F-4834-B40C-6DEB0F02BC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83CD772-E29F-4834-B40C-6DEB0F02BC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83CD772-E29F-4834-B40C-6DEB0F02BC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83CD772-E29F-4834-B40C-6DEB0F02BC03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA9E01C0-A3D7-42E5-BF03-1178E31B30CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA9E01C0-A3D7-42E5-BF03-1178E31B30CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA9E01C0-A3D7-42E5-BF03-1178E31B30CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA9E01C0-A3D7-42E5-BF03-1178E31B30CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {883FAAE8-A4D3-4A52-A4AF-15527398F625}
+	EndGlobalSection
+EndGlobal

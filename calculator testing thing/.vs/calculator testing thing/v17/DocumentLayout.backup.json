@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\js1005915\\source\\repos\\CIS_150\\calculator testing thing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9E01C0-A3D7-42E5-BF03-1178E31B30CC}|Schumann.Library.Tests\\Schumann.Library.Tests.csproj|c:\\users\\js1005915\\source\\repos\\cis_150\\calculator testing thing\\schumann.library.tests\\math\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9E01C0-A3D7-42E5-BF03-1178E31B30CC}|Schumann.Library.Tests\\Schumann.Library.Tests.csproj|solutionrelative:schumann.library.tests\\math\\calculatortests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C83CD772-E29F-4834-B40C-6DEB0F02BC03}|calculator testing thing\\calculator testing thing.csproj|c:\\users\\js1005915\\source\\repos\\cis_150\\calculator testing thing\\calculator testing thing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C83CD772-E29F-4834-B40C-6DEB0F02BC03}|calculator testing thing\\calculator testing thing.csproj|solutionrelative:calculator testing thing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalculatorTests.cs",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\CIS_150\\calculator testing thing\\Schumann.Library.Tests\\Math\\CalculatorTests.cs",
+              "RelativeDocumentMoniker": "Schumann.Library.Tests\\Math\\CalculatorTests.cs",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\CIS_150\\calculator testing thing\\Schumann.Library.Tests\\Math\\CalculatorTests.cs",
+              "RelativeToolTip": "Schumann.Library.Tests\\Math\\CalculatorTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:59:11.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\CIS_150\\calculator testing thing\\calculator testing thing\\Program.cs",
+              "RelativeDocumentMoniker": "calculator testing thing\\Program.cs",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\CIS_150\\calculator testing thing\\calculator testing thing\\Program.cs",
+              "RelativeToolTip": "calculator testing thing\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:28:20.97Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

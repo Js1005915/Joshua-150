@@ -1,0 +1,4 @@
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\calculator testing thing\obj\Debug\net8.0\calculator testing thing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\calculator testing thing\obj\Debug\net8.0\calculator testing thing.AssemblyInfoInputs.cache
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\calculator testing thing\obj\Debug\net8.0\calculator testing thing.AssemblyInfo.cs
+C:\Users\js1005915\source\repos\CIS_150\calculator testing thing\calculator testing thing\obj\Debug\net8.0\calculator testing thing.csproj.CoreCompileInputs.cache
