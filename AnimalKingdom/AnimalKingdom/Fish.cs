@@ -1,15 +1,20 @@
-﻿using System;
+﻿using AnimalKingdom;
+using System;
+using System.Xml.Linq;
 
-
-public class Fish : Animal
+namespace AnimalKingdom
 {
-    public Fish(string name, int age) : base(name, age)
+    public class Fish : Animal
     {
-    }
+        public Fish(string name, int age) : base(name, age)
+        {
+        }
 
-    public override void MakeSound()
-    {
-        //fish dont make a sound gang
-        Console.WriteLine($"{Name} bubbles. ");
+        public
+            override void MakeSound()
+        {
+            //fish dont make a sound gang
+            Console.WriteLine($"{Name} bubbles. ");
+        }
     }
 }

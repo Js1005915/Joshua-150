@@ -1,0 +1,14 @@
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\bin\Debug\net8.0\AnimalKingdom.exe
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\bin\Debug\net8.0\AnimalKingdom.deps.json
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\bin\Debug\net8.0\AnimalKingdom.runtimeconfig.json
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\bin\Debug\net8.0\AnimalKingdom.dll
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\bin\Debug\net8.0\AnimalKingdom.pdb
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\AnimalKingdom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\AnimalKingdom.AssemblyInfoInputs.cache
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\AnimalKingdom.AssemblyInfo.cs
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\AnimalKingdom.csproj.CoreCompileInputs.cache
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\AnimalKingdom.dll
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\refint\AnimalKingdom.dll
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\AnimalKingdom.pdb
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\AnimalKingdom.genruntimeconfig.cache
+C:\Users\js1005915\source\repos\CIS_150\AnimalKingdom\AnimalKingdom\obj\Debug\net8.0\ref\AnimalKingdom.dll
