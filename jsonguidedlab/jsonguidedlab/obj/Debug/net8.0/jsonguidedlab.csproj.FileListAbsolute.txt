@@ -1,0 +1,17 @@
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\bin\Debug\net8.0\jsonguidedlab.exe
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\bin\Debug\net8.0\jsonguidedlab.deps.json
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\bin\Debug\net8.0\jsonguidedlab.runtimeconfig.json
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\bin\Debug\net8.0\jsonguidedlab.dll
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\bin\Debug\net8.0\jsonguidedlab.pdb
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.csproj.AssemblyReference.cache
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.AssemblyInfoInputs.cache
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.AssemblyInfo.cs
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.csproj.CoreCompileInputs.cache
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguid.FDD23A91.Up2Date
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.dll
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\refint\jsonguidedlab.dll
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.pdb
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\jsonguidedlab.genruntimeconfig.cache
+C:\Users\js1005915\source\repos\jsonguidedlab\jsonguidedlab\obj\Debug\net8.0\ref\jsonguidedlab.dll
