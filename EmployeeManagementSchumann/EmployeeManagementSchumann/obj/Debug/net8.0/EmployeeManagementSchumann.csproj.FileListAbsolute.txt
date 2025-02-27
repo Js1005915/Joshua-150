@@ -1,0 +1,14 @@
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\bin\Debug\net8.0\EmployeeManagementSchumann.exe
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\bin\Debug\net8.0\EmployeeManagementSchumann.deps.json
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\bin\Debug\net8.0\EmployeeManagementSchumann.runtimeconfig.json
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\bin\Debug\net8.0\EmployeeManagementSchumann.dll
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\bin\Debug\net8.0\EmployeeManagementSchumann.pdb
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\EmployeeManagementSchumann.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\EmployeeManagementSchumann.AssemblyInfoInputs.cache
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\EmployeeManagementSchumann.AssemblyInfo.cs
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\EmployeeManagementSchumann.csproj.CoreCompileInputs.cache
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\EmployeeManagementSchumann.dll
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\refint\EmployeeManagementSchumann.dll
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\EmployeeManagementSchumann.pdb
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\EmployeeManagementSchumann.genruntimeconfig.cache
+C:\Users\js1005915\source\repos\EmployeeManagementSchumann\EmployeeManagementSchumann\obj\Debug\net8.0\ref\EmployeeManagementSchumann.dll

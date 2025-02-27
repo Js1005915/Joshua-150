@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|c:\\users\\js1005915\\source\\repos\\employeemanagementschumann\\employeemanagementschumann\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|solutionrelative:employeemanagementschumann\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|c:\\users\\js1005915\\source\\repos\\employeemanagementschumann\\employeemanagementschumann\\contractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|solutionrelative:employeemanagementschumann\\contractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|c:\\users\\js1005915\\source\\repos\\employeemanagementschumann\\employeemanagementschumann\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|solutionrelative:employeemanagementschumann\\parttimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|c:\\users\\js1005915\\source\\repos\\employeemanagementschumann\\employeemanagementschumann\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{170915F1-CCC3-48B8-A8AD-825FFD640BB8}|EmployeeManagementSchumann\\EmployeeManagementSchumann.csproj|solutionrelative:employeemanagementschumann\\fulltimeemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contractor.cs",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\Contractor.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSchumann\\Contractor.cs",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\Contractor.cs",
+              "RelativeToolTip": "EmployeeManagementSchumann\\Contractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:53:03.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FullTimeEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\FullTimeEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSchumann\\FullTimeEmployee.cs",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\FullTimeEmployee.cs",
+              "RelativeToolTip": "EmployeeManagementSchumann\\FullTimeEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:29:24.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PartTimeEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\PartTimeEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSchumann\\PartTimeEmployee.cs",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\PartTimeEmployee.cs",
+              "RelativeToolTip": "EmployeeManagementSchumann\\PartTimeEmployee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:48:10.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSchumann\\Employee.cs",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\EmployeeManagementSchumann\\EmployeeManagementSchumann\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagementSchumann\\Employee.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAIwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T15:09:41.343Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
