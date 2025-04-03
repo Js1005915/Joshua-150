@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\js1005915\\source\\repos\\phonecontactmanager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|c:\\users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|solutionrelative:phonecontactmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|c:\\users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|solutionrelative:phonecontactmanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|c:\\users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|solutionrelative:phonecontactmanager\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 295,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml",
+              "RelativeDocumentMoniker": "phonecontactmanager\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml",
+              "RelativeToolTip": "phonecontactmanager\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T13:40:59.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "phonecontactmanager\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml.cs",
+              "RelativeToolTip": "phonecontactmanager\\MainPage.xaml.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T13:40:35.441Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 105,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml",
+              "RelativeDocumentMoniker": "phonecontactmanager\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\js1005915\\source\\repos\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml",
+              "RelativeToolTip": "phonecontactmanager\\MainPage.xaml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowAwAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-03T14:00:04.957Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
