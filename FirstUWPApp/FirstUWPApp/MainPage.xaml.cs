@@ -4,8 +4,10 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage.Pickers;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -13,6 +15,12 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.Storage;
+using Windows.Storage.Pickers;
+using Windows.Storage.Streams;
+using System.Text;
+using Windows.Networking;
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -45,24 +53,84 @@ namespace FirstUWPApp
 
         private void SaveToFile(object sender, RoutedEventArgs e)
         {
-            SaveToCsv();
+            SaveCsvFileAsync();
         }
 
-        private async void SaveToCsv()
+        public async Task SaveCsvFileAsync()
         {
-            var folder = Windows.Storage.ApplicationData.Current.LocalFolder;
-            var file = await folder.CreateFileAsync("Students.csv", Windows.Storage.CreationCollisionOption.ReplaceExisting);
+            var savePicker = new FileSavePicker();
+            savePicker.SuggestedStartLocation = PickerLocationId.DocumentsLibrary;
 
-            var stream = await file.OpenStreamForWriteAsync();
-            using ( var writer = new StreamWriter(stream) )
+            savePicker.FileTypeChoices.Add("CSV file", new List<string>() { ".csv" });
+            savePicker.SuggestedFileName = "data";
+
+            StorageFile file = await savePicker.PickSaveFileAsync();
+
+            if (file != null)
             {
-                writer.WriteLine("ID,First Name, Last Name, Class, Grade");
+                // Prevent updates to the remote version of the file until updates are finalized with call to CompleteUpdatesAsync.
+                Windows.Storage.CachedFileManager.DeferUpdates(file);
 
-                foreach (var item in Students)
+                var lines = Students.Select(s => s.ToString_CSV());
+                await Windows.Storage.FileIO.WriteLinesAsync(file, lines);
+
+                // Finalize write
+                Windows.Storage.Provider.FileUpdateStatus status = await Windows.Storage.CachedFileManager.CompleteUpdatesAsync(file);
+
+                if (status == Windows.Storage.Provider.FileUpdateStatus.Complete)
                 {
-                    writer.WriteLine($"{item.Id},{item.FName},{item.LName}, {item.Class},{item.Grade}");
+                    var dialog = new ContentDialog
+                    {
+                        Title = "Success",
+                        Content = "File saved successfully!",
+                        CloseButtonText = "OK"
+                    };
+                    await dialog.ShowAsync();
                 }
             }
+        }
+
+
+        public async Task<ObservableCollection<Student>> ReadCSV()
+        {
+            var picker = new FileOpenPicker();
+            picker.SuggestedStartLocation = PickerLocationId.DocumentsLibrary;
+            picker.FileTypeFilter.Add(".csv");
+
+            StorageFile file = await picker.PickSingleFileAsync();
+
+            if (file == null)
+            {
+                return null;
+            }
+
+            var lines = await FileIO.ReadLinesAsync(file);
+
+
+
+            foreach (var line in lines.Skip(1))
+            {
+                var parts = line.Split(',');
+
+                if (parts.Length >= 3)
+                {
+                    Students.Add(new Student
+                    {
+                        Id = int.TryParse(parts[0], out int id) ? id : 0,
+                        FName = parts[1],
+                        LName = parts[2],
+                        Class = parts[3],
+                        Grade = parts[4]
+                    });
+                }
+
+            }
+            return Students;
+        }
+
+        private void ReadFromFile(object sender, RoutedEventArgs e)
+        {
+            ReadCSV();
         }
     }
 
@@ -75,7 +143,15 @@ namespace FirstUWPApp
         public string Class { get; set; }
         public string Grade { get; set; }
 
-        
+        public override string ToString()
+        {
+            return $"Student: ID:{Id}, First Name:{FName}, Last Name:{LName}, Course:{Class}, Course Grade:{Grade}.";
+
+        }
+        public string ToString_CSV()
+        {
+            return $"{Id},{FName},{LName},{Class},{Grade}";
+        }
 
     }
 
