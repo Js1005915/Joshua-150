@@ -10,7 +10,7 @@
 
     <Grid>
         <!-- List View stuff -->
-        <ListView Margin="315,200,315,200" RenderTransformOrigin="0.496,0.51" SelectionChanged="ListView_SelectionChanged" ItemsSource=""/>
+        <ListView Margin="315,200,315,200" RenderTransformOrigin="0.496,0.51" SelectionChanged="ListView_SelectionChanged" ItemsSource="{Binding contactlist}"/>
         <!-- Name text box -->
         <TextBox HorizontalAlignment="Left" Margin="314,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="78" TextChanged="NameBox_TextChanged"/>
         <!-- Phone Number Text Box -->

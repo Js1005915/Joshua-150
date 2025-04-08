@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tzMzxa0jHvY=",
+  "dgSpecHash": "dtb1D6uzt08=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Agify\\pokeapi\\pokeapi\\pokeapi.csproj",
+  "projectFilePath": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\pokeapi\\pokeapi\\pokeapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kille\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

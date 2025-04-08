@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Windows.ApplicationModel.Contacts;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -26,7 +28,7 @@ namespace phonecontactmanager
         public MainPage()
         {
             this.InitializeComponent();
-            ListView Contacts;
+
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -36,7 +38,8 @@ namespace phonecontactmanager
 
         private void Add_Button(object sender, RoutedEventArgs e)
         {
-            .TextProperty
+            
+
         }
 
         private void Delete_Button(object sender, RoutedEventArgs e)
@@ -61,8 +64,30 @@ namespace phonecontactmanager
         public string PhoneNumber;
     }
 
-    public class ContactViewModel
+    public class ContactsViewModel : INotifyPropertyChanged
     {
-        public ObservableCollection<Contact> 
+        public ObservableCollection<Contact> _contacts;
+
+        public ObservableCollection<Contact> Contacts
+        {
+            get { return _contacts; }
+            set
+            {
+                _contacts = value;
+                OnPropertyChanged(nameof(Contacts));
+            }
+        }
+
+        public ContactsViewModel()
+        {
+            Contacts = new ObservableCollection<Contact> { };
+
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }
