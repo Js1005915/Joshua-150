@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ITLT17582</Machine>
-    <WindowsUser>js1005915</WindowsUser>
+    <Machine>TEYSPC</Machine>
+    <WindowsUser>kille</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>03ef036f-a2f9-4827-92bb-cbf7cb31b6c3</PackageIdentityName>
     <PackageIdentityPublisher>CN=kille</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>736986D0845C79E2BFB7DD61234E1CD1C5B8D20950F3E1F29DADCE35BDF5BDF9</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>1246B744C4D1A7069F6DB4B870727A6519272343BEB46262D72F0FBBC310D133</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>03ef036f-a2f9-4827-92bb-cbf7cb31b6c3_1.0.0.0_x64__ptvczmayby5t2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>03ef036f-a2f9-4827-92bb-cbf7cb31b6c3_ptvczmayby5t2!App</RegisteredUserModeAppID>
     <RegisteredPackageID>03ef036f-a2f9-4827-92bb-cbf7cb31b6c3</RegisteredPackageID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-08T14:43:58.114</Modified>
+      <Modified>2025-04-09T01:29:57.684</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\FirstUWPApp.exe">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\FirstUWPApp.exe">
       <PackagePath>entrypoint\FirstUWPApp.exe</PackagePath>
-      <Modified>2025-04-08T14:43:57.246</Modified>
+      <Modified>2025-04-09T01:29:56.867</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.14\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -44,69 +44,69 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.26100.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
-      <Modified>2025-02-21T17:51:02.000</Modified>
+      <Modified>2024-09-05T19:56:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2025-04-08T05:40:44.000</Modified>
+      <Modified>2025-04-08T05:40:44.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2025-04-04T07:25:02.000</Modified>
+      <Modified>2025-04-04T07:25:02.591</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-04T07:25:02.000</Modified>
+      <Modified>2025-04-04T07:25:02.594</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-04T07:25:02.000</Modified>
+      <Modified>2025-04-04T07:25:02.595</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-04T07:25:02.000</Modified>
+      <Modified>2025-04-04T07:25:02.595</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-04T07:25:02.000</Modified>
+      <Modified>2025-04-04T07:25:02.596</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-04T07:25:02.000</Modified>
+      <Modified>2025-04-04T07:25:02.596</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-04T07:25:02.000</Modified>
+      <Modified>2025-04-04T07:25:02.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\FirstUWPApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\FirstUWPApp.xr.xml">
       <PackagePath>FirstUWPApp.xr.xml</PackagePath>
-      <Modified>2025-04-08T13:20:20.380</Modified>
+      <Modified>2025-04-08T13:20:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2025-04-08T14:43:57.056</Modified>
+      <Modified>2025-04-09T01:29:56.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2025-04-08T14:43:57.061</Modified>
+      <Modified>2025-04-09T01:29:56.724</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.26100.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2025-02-21T17:50:40.000</Modified>
+      <Modified>2024-09-05T19:56:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-04-08T13:20:21.263</Modified>
+      <Modified>2025-04-08T22:03:48.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\Core\FirstUWPApp.exe">
+    <AppxPackagedFile Include="C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\FirstUWPApp\FirstUWPApp\bin\x64\Debug\Core\FirstUWPApp.exe">
       <PackagePath>FirstUWPApp.exe</PackagePath>
-      <Modified>2025-04-08T14:43:58.083</Modified>
+      <Modified>2025-04-09T01:29:57.678</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

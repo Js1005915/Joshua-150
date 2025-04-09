@@ -8,21 +8,26 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <Grid Background="Blue">
         <!-- List View stuff -->
-        <ListView Margin="315,200,315,200" RenderTransformOrigin="0.496,0.51" SelectionChanged="ListView_SelectionChanged" ItemsSource="{Binding contactlist}"/>
+        <ListView x:Name="ListView" Margin="315,200,315,200" RenderTransformOrigin="0.496,0.51" BorderThickness="1" BorderBrush="Black" SelectionChanged="ListView_SelectionChanged">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" Margin="0,0,100,0" />
+                        <TextBlock Text="{Binding PhoneNumber}" Margin="0,0,100,0"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         <!-- Name text box -->
-        <TextBox HorizontalAlignment="Left" Margin="314,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="78" TextChanged="NameBox_TextChanged"/>
+        <TextBox x:Name="NameBox" HorizontalAlignment="Left" Margin="314,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="78" PlaceholderText="Insert Name"/>
         <!-- Phone Number Text Box -->
-        <TextBox HorizontalAlignment="Left" Margin="714,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="78" TextChanged="PhoneBox_TextChanged"/>
+        <TextBox x:Name="PhoneBox" HorizontalAlignment="Left" Margin="714,113,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="400" Height="78" PlaceholderText="Insert Phone Number"/>
         
-        <Button Content="Add" Margin="1114,113,0,0" VerticalAlignment="Top" Width="71" Height="39" Click="Add_Button" Name="Add Button"/>
+        <Button Content="Add" Margin="1114,113,0,0" VerticalAlignment="Top" Width="71" Height="39" Click="Add_Button" Name="AddButton"/>
         
         <Button Content="Delete" Margin="1114,152,0,0" VerticalAlignment="Top" Width="71" Height="39" Click="Delete_Button"/>
-        
-        <TextBlock HorizontalAlignment="Left" Margin="315,64,0,0" TextWrapping="Wrap" Text="                        Insert the Name below" VerticalAlignment="Top" Width="399" Height="48" Padding="15" FontSize="16"/>
-        
-        <TextBlock HorizontalAlignment="Left" Margin="714,64,0,0" TextWrapping="Wrap" Text="                   Insert the Phone Number below" VerticalAlignment="Top" Width="399" Height="48" Padding="15" FontSize="16"/>
 
     </Grid>
 </Page>

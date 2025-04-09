@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel.Contacts;
+using Windows.ApplicationModel.Contacts.Provider;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -25,69 +26,61 @@ namespace phonecontactmanager
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        ContactsViewModel contactsViewModel = new ContactsViewModel();
+        
+
         public MainPage()
         {
             this.InitializeComponent();
-
-        }
-
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
+            
+            ListView.ItemsSource = contactsViewModel.ContactsList();
+            
         }
 
         private void Add_Button(object sender, RoutedEventArgs e)
         {
             
+            contactsViewModel.AddContact(NameBox.Text, PhoneBox.Text);
+            NameBox.Text = "";
+            PhoneBox.Text = "";
 
         }
 
         private void Delete_Button(object sender, RoutedEventArgs e)
         {
-
+            contactsViewModel.Contacts.Clear();
         }
 
-        private void PhoneBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
-        }
-
-        private void NameBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            string name = e.ToString();
+            NameBox.Text = sender.ToString();
         }
     }
     public class Contact
     {
-        public string Name;
+        public string Name { get; set; }
 
-        public string PhoneNumber;
+        public string PhoneNumber { get; set; }
     }
 
-    public class ContactsViewModel : INotifyPropertyChanged
+    public class ContactsViewModel
     {
-        public ObservableCollection<Contact> _contacts;
-
-        public ObservableCollection<Contact> Contacts
+        public ObservableCollection<Contact> Contacts = new ObservableCollection<Contact>()
         {
-            get { return _contacts; }
-            set
-            {
-                _contacts = value;
-                OnPropertyChanged(nameof(Contacts));
-            }
+            new Contact {Name = "Hiter", PhoneNumber = "4172111111"}
+        };
+
+
+        public void AddContact(string name, string phonenumber)
+        {
+            Contacts.Add(new Contact() { Name = name, PhoneNumber = phonenumber });
         }
 
-        public ContactsViewModel()
+        public ObservableCollection<Contact> ContactsList()
         {
-            Contacts = new ObservableCollection<Contact> { };
-
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            return Contacts;
         }
     }
+
+
 }

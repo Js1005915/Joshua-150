@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|solutionrelative:phonecontactmanager\\MainPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|c:\\users\\kille\\onedrive - ozarks technical community college\\2025-spring\\cis-150\\joshua-150\\phonecontactmanager\\phonecontactmanager\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9849AA34-E288-4D28-9830-BB53F2E32FE0}|phonecontactmanager\\phonecontactmanager.csproj|solutionrelative:phonecontactmanager\\mainpage.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,7 +17,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 384,
+          "DockedHeight": 261,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -44,28 +40,9 @@
               "RelativeDocumentMoniker": "phonecontactmanager\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml.cs",
               "RelativeToolTip": "phonecontactmanager\\MainPage.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwCgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAwCwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T13:40:35.441Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedHeight": 16,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml",
-              "RelativeDocumentMoniker": "phonecontactmanager\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\MainPage.xaml",
-              "RelativeToolTip": "phonecontactmanager\\MainPage.xaml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAowAwAAACdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T14:00:04.957Z",
               "EditorCaption": ""
             }
           ]
