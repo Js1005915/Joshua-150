@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj": {}
+    "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj": {
+    "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj",
+        "projectUniqueName": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj",
         "projectName": "phonecontactmanager",
-        "projectPath": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj",
-        "packagesPath": "C:\\Users\\kille\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kille\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\obj\\",
+        "projectPath": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\phonecontactmanager.csproj",
+        "packagesPath": "C:\\Users\\js1005915\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\phonecontactmanager\\phonecontactmanager\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "UsingMicrosoftNETSdk": false,
@@ -20,7 +20,7 @@
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\kille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\js1005915\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

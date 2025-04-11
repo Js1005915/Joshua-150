@@ -158,7 +158,9 @@
       <Version>4.0.0</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Assets\Fonts\TeutonNormal.otf" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Fonts\Pokemon Solid.ttf" />
   </ItemGroup>

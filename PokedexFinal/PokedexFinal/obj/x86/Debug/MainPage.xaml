@@ -7,21 +7,76 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
 
     <Grid Background="#6E96E1">
 
-        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="121,208,750,207">
+
+        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="121,288,940,127">
             <Border.Background>
                 <ImageBrush ImageSource="/Assets/placeholder.png"/>
             </Border.Background>
         </Border>
 
 
-        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="121,75,750,792" Background="#FCECB9">
+        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="121,157,940,792" Background="#FCECB9">
             <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="StonJourner" VerticalAlignment="Center" Height="158" Width="629" FontFamily="/Assets/Fonts/Pokemon Solid.ttf#Pokemon Solid" FontSize="50" TextAlignment="Center" Foreground="Black"/>
         </Border>
-        <ListView Margin="1057,75,0,111"/>
-        <Border BorderBrush="Black" BorderThickness="2" Margin="-3,-3,-3,930"/>
+
+        <ListView Margin="1008,113,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <ListView.RenderTransform>
+                <CompositeTransform SkewY="0.095" TranslateY="-0.498"/>
+            </ListView.RenderTransform>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="ListViewItem">
+                                <Border CornerRadius="22, 2, 2, 22" Background="#FCECB9" Margin="4" Padding="10" HorizontalAlignment="Stretch" Width="Auto" >
+                                    <ContentPresenter />
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Foreground" Value="Black"/>
+                    <Setter Property="FontSize" Value="20"/>
+                    
+                </Style>
+            </ListView.ItemContainerStyle>
+            <Style TargetType="ScrollBar">
+                <Setter Property="Width" Value="8"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="#FF888888"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="ScrollBar">
+                            <Grid x:Name="Root" Background="{TemplateBinding Background}">
+                                <Rectangle x:Name="Track"
+                                   Fill="{TemplateBinding Background}"
+                                   Margin="0"/>
+                                <Thumb x:Name="Thumb"
+                               Background="{TemplateBinding Foreground}"
+                               CornerRadius="4"
+                               Margin="2"/>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <ListViewItem>
+                No. 048 Wurmple
+            </ListViewItem>
+            <ListViewItem>
+                No. 049 Silicoon
+            </ListViewItem>
+            <ListViewItem>
+                No. 050 Beautifly
+            </ListViewItem >
+
+        </ListView>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="-3,-3,-3,966" Background="#639FE1"/>
+        <Border BorderBrush="Black" BorderThickness="2" Margin="-3,1033,-3,-3" Background="#639FE1"/>
 
 
 

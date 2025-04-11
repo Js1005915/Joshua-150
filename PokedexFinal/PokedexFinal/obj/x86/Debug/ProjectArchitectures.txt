@@ -1,1 +1,1 @@
-C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\PokedexFinal.csproj;x86
+C:\Users\kille\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\PokedexFinal.csproj;x86
