@@ -7,12 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    
 
     <Grid Background="#6E96E1">
 
 
-        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="70,288,991,127">
+        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="70,288,991,195">
             <Border.Background>
                 <ImageBrush ImageSource="/Assets/placeholder.png"/>
             </Border.Background>
@@ -23,16 +22,17 @@
             <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="StonJourner" VerticalAlignment="Center" Height="158" Width="629" FontFamily="/Assets/Fonts/Pokemon Solid.ttf#Pokemon Solid" FontSize="50" TextAlignment="Center" Foreground="Black"/>
         </Border>
 
-        <ListView Margin="1008,113,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <ListView x:Name="MainListView" Margin="1008,113,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
             <ListView.RenderTransform>
                 <CompositeTransform SkewY="0.095" TranslateY="-0.498"/>
             </ListView.RenderTransform>
             <ListView.ItemContainerStyle>
                 <Style TargetType="ListViewItem">
-                    
+
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="ListViewItem">
+
                                 <Grid>
                                     <Border CornerRadius="32, 2, 2, 32" Margin="4" Padding="10" HorizontalAlignment="Stretch" Width="Auto" Height="65" BorderThickness="2">
                                         <Border.Background>
@@ -41,9 +41,10 @@
                                         <Border.BorderBrush>
                                             <SolidColorBrush x:Name="BorderBrush" Color="#FCECB9"/>
                                         </Border.BorderBrush>
-                                        
+
                                         <ContentPresenter />
                                     </Border>
+                                    
 
                                     <VisualStateManager.VisualStateGroups>
                                         <VisualStateGroup x:Name="CommonStates">
@@ -54,7 +55,7 @@
                                                     Storyboard.TargetProperty="Color"
                                                     To="#FBB170"
                                                     Duration="0:0:0.2"/>
-                                                    
+
                                                 </Storyboard>
                                             </VisualState>
                                             <VisualState x:Name="Pressed"/>
@@ -73,9 +74,10 @@
                                         </VisualStateGroup>
                                     </VisualStateManager.VisualStateGroups>
                                 </Grid>
+                                
                             </ControlTemplate>
-                            
-                            
+
+
                         </Setter.Value>
                     </Setter>
                     <Setter Property="Foreground" Value="Black"/>
@@ -87,6 +89,7 @@
                 </Style>
             </ListView.ItemContainerStyle>
             
+
 
             <ListViewItem>
                 <TextBlock TextAlignment="Center" Text="No. 048 Wurmple" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -101,6 +104,10 @@
         </ListView>
         <Border BorderBrush="Black" BorderThickness="2" Margin="-3,-3,-3,966" Background="#639FE1"/>
         <Border BorderBrush="Black" BorderThickness="2" Margin="-3,1033,-3,-3" Background="#639FE1"/>
+        <TextBlock x:Name="InfoBox" HorizontalAlignment="Left" Margin="106,904,0,0" TextWrapping="Wrap" FontSize="26" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="787" Text="Height:
+                   Weight:
+                   Gender:
+                   Color: "/>
 
 
 

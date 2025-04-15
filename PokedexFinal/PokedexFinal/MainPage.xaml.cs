@@ -1,5 +1,7 @@
-﻿using System;
+﻿using PokeApiNet;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -22,9 +24,34 @@ namespace PokedexFinal
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public ObservableCollection<PokemonClass> PokeList = new ObservableCollection<PokemonClass>();
+
         public MainPage()
         {
             this.InitializeComponent();
+
+            MainListView.ItemsSource = PokeList;
+
+            // instantiate client
+            PokeApiClient pokeClient = new PokeApiClient();
+
+            // get a resource by name
+            //Pokemon hoOh = await pokeClient.GetResourceAsync<Pokemon>("ho-oh");
+
+            PokeList.Add(new PokemonClass { id = 1, name = "Bulbasaur", height = 12, weight = 12, color = "Green", gender = "Male" });
+
         }
+    }
+
+
+
+    public class PokemonClass
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public int height { get; set; }
+        public int weight { get; set; }
+        public string color { get; set; }
+        public string gender { get; set; }
     }
 }
