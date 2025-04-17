@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -14,6 +15,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Newtonsoft.Json;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -31,6 +33,8 @@ namespace PokedexFinal
             this.InitializeComponent();
 
             MainListView.ItemsSource = PokeList;
+            
+            
 
             // instantiate client
             PokeApiClient pokeClient = new PokeApiClient();
@@ -38,7 +42,12 @@ namespace PokedexFinal
             // get a resource by name
             //Pokemon hoOh = await pokeClient.GetResourceAsync<Pokemon>("ho-oh");
 
-            PokeList.Add(new PokemonClass { id = 1, name = "Bulbasaur", height = 12, weight = 12, color = "Green", gender = "Male" });
+            PokeList.Add(new PokemonClass { id = 01, name = "Bulbasaur", height = 12, weight = 12, color = "Green", gender = "Male" });
+
+            Pokemon fpoke = PokemonClass.Getpoke(1);
+
+            PokeList.Add(new PokemonClass { id = fpoke.Id });
+
 
         }
     }
@@ -53,5 +62,24 @@ namespace PokedexFinal
         public int weight { get; set; }
         public string color { get; set; }
         public string gender { get; set; }
+
+
+
+
+        public static async Task<Pokemon> Getpoke(int id)
+        {
+            PokeApiClient pokeClient = new PokeApiClient();
+
+            Pokemon aa =  await pokeClient.GetResourceAsync<Pokemon>(id);
+
+            return aa;
+        }
     }
+
+
+
+
 }
+
+
+

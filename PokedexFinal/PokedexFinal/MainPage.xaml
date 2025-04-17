@@ -88,7 +88,15 @@
 
                 </Style>
             </ListView.ItemContainerStyle>
-            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
+                        <TextBlock TextAlignment="Left" Text="No."/>
+                        <TextBlock TextAlignment="Left" Text="{Binding id}"/>
+                        <TextBlock TextAlignment="Left" Text="{Binding name}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
 
 
             <ListViewItem>
@@ -108,6 +116,7 @@
                    Weight:
                    Gender:
                    Color: "/>
+        
 
 
 
