@@ -11,18 +11,18 @@
     <Grid Background="#6E96E1">
 
 
-        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="70,288,991,195">
+        <Border x:Name="ImageWBorder" BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="70,288,991,195">
             <Border.Background>
-                <ImageBrush ImageSource="/Assets/placeholder.png"/>
+                <ImageBrush x:Name="BorderImage" ImageSource="/Assets/placeholder.png"/>
             </Border.Background>
         </Border>
 
 
-        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="73,158,988,791" Background="#FCECB9">
-            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="StonJourner" VerticalAlignment="Center" Height="158" Width="629" FontFamily="/Assets/Fonts/Pokemon Solid.ttf#Pokemon Solid" FontSize="50" TextAlignment="Center" Foreground="Black"/>
+        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="73,71,988,791" Background="#FCECB9">
+            <TextBlock x:Name="NameBox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="StonJourner" VerticalAlignment="Center" Height="170" Width="629" FontFamily="/Assets/Fonts/Pokemon Solid.ttf#Pokemon Solid" FontSize="50" TextAlignment="Center" Foreground="Black"/>
         </Border>
 
-        <ListView x:Name="MainListView" Margin="1008,113,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        <ListView x:Name="MainListView" Margin="1008,113,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemClick="MainListView_ItemClick" IsItemClickEnabled="True">
             <ListView.RenderTransform>
                 <CompositeTransform SkewY="0.095" TranslateY="-0.498"/>
             </ListView.RenderTransform>
@@ -44,7 +44,7 @@
 
                                         <ContentPresenter />
                                     </Border>
-                                    
+
 
                                     <VisualStateManager.VisualStateGroups>
                                         <VisualStateGroup x:Name="CommonStates">
@@ -74,7 +74,7 @@
                                         </VisualStateGroup>
                                     </VisualStateManager.VisualStateGroups>
                                 </Grid>
-                                
+
                             </ControlTemplate>
 
 
@@ -112,11 +112,13 @@
         </ListView>
         <Border BorderBrush="Black" BorderThickness="2" Margin="-3,-3,-3,966" Background="#639FE1"/>
         <Border BorderBrush="Black" BorderThickness="2" Margin="-3,1033,-3,-3" Background="#639FE1"/>
-        <TextBlock x:Name="InfoBox" HorizontalAlignment="Left" Margin="106,904,0,0" TextWrapping="Wrap" FontSize="26" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="787" Text="Height:
-                   Weight:
-                   Gender:
-                   Color: "/>
-        
+
+        <TextBlock  x:Name="HInfoBox" HorizontalAlignment="Left" Margin="105,883,0,0" TextWrapping="Wrap" FontSize="26" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="787" Text="Height: 
+                    Weight:
+                    Color:
+                    Gender: "/>
+        <TextBox x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="1011,56,0,0" TextWrapping="Wrap" PlaceholderText="Search by name or id here" VerticalAlignment="Top" Width="912" Height="43" TextChanged="TextBox_TextChanged_1"/>
+
 
 
 

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\PokedexFinal\\",
+  "WorkspaceRootPath": "C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5D49EEC-CEAB-4E29-96AE-4C7868831E67}|PokedexFinal\\PokedexFinal.csproj|c:\\users\\js1005915\\onedrive - ozarks technical community college\\2025-spring\\cis-150\\joshua-150\\pokedexfinal\\pokedexfinal\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{F5D49EEC-CEAB-4E29-96AE-4C7868831E67}|PokedexFinal\\PokedexFinal.csproj|c:\\users\\kille\\onedrive\\documents\\githubhome\\joshua-150\\pokedexfinal\\pokedexfinal\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D49EEC-CEAB-4E29-96AE-4C7868831E67}|PokedexFinal\\PokedexFinal.csproj|solutionrelative:pokedexfinal\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5D49EEC-CEAB-4E29-96AE-4C7868831E67}|PokedexFinal\\PokedexFinal.csproj|C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\pokedexfinal\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F5D49EEC-CEAB-4E29-96AE-4C7868831E67}|PokedexFinal\\PokedexFinal.csproj|solutionrelative:pokedexfinal\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5D49EEC-CEAB-4E29-96AE-4C7868831E67}|PokedexFinal\\PokedexFinal.csproj|C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5D49EEC-CEAB-4E29-96AE-4C7868831E67}|PokedexFinal\\PokedexFinal.csproj|solutionrelative:PokedexFinal\\MainPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\PokedexFinal\\obj\\x64\\Debug\\MainPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PokedexFinal\\obj\\x64\\Debug\\MainPage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +22,27 @@
       "DocumentGroups": [
         {
           "DockedHeight": 295,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainPage.g.cs",
+              "DocumentMoniker": "C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\PokedexFinal\\obj\\x64\\Debug\\MainPage.g.cs",
+              "RelativeDocumentMoniker": "PokedexFinal\\obj\\x64\\Debug\\MainPage.g.cs",
+              "ToolTip": "C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\PokedexFinal\\obj\\x64\\Debug\\MainPage.g.cs",
+              "RelativeToolTip": "PokedexFinal\\obj\\x64\\Debug\\MainPage.g.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAawDcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T02:08:26.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml",
               "RelativeDocumentMoniker": "PokedexFinal\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml",
               "RelativeToolTip": "PokedexFinal\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-04-10T13:20:27.601Z",
@@ -34,13 +50,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "PokedexFinal\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\js1005915\\OneDrive - Ozarks Technical Community College\\2025-Spring\\CIS-150\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\kille\\OneDrive\\Documents\\githubhome\\Joshua-150\\PokedexFinal\\PokedexFinal\\MainPage.xaml.cs",
               "RelativeToolTip": "PokedexFinal\\MainPage.xaml.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAcwGEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T13:20:35.413Z",
               "EditorCaption": ""

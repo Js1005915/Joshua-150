@@ -33,10 +33,12 @@
       <RootProperty Name="BorderThickness" />
       <RootProperty Name="RenderTransformOrigin" />
       <RootProperty Name="UseLayoutRounding" />
+      <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="RenderTransform" />
       <RootProperty Name="ItemContainerStyle" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="Items" />
+      <RootEvent Name="ItemClick" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootMethod Name="GetVerticalScrollBarVisibility" />
@@ -54,6 +56,16 @@
       <RootProperty Name="Text" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="Foreground" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootEvent Name="TextChanged" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.CompositeTransform">
       <RootProperty Name="SkewY" />
