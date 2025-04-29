@@ -137,6 +137,8 @@ namespace PokedexFinal
 
         public string sprite { get; set; }
 
+        public string listsprite { get; set; }
+
 
 
 

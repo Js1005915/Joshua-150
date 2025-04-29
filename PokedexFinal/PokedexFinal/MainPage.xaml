@@ -8,119 +8,123 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid Background="#6E96E1">
+
+    <Viewbox Stretch="Uniform">
+        <Grid Background="#6E96E1" Width="1920" Height="1080">
 
 
-        <Border x:Name="ImageWBorder" BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="70,288,991,195">
-            <Border.Background>
-                <ImageBrush x:Name="BorderImage" ImageSource="/Assets/placeholder.png"/>
-            </Border.Background>
-        </Border>
+
+            <Border x:Name="ImageWBorder" BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="70,288,991,195" MinHeight="100" MinWidth="200">
+                <Border.Background>
+                    <ImageBrush x:Name="BorderImage" ImageSource="/Assets/placeholder.png"/>
+                </Border.Background>
+
+            </Border>
 
 
-        <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="73,71,988,791" Background="#FCECB9">
-            <TextBlock x:Name="NameBox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="StonJourner" VerticalAlignment="Center" Height="170" Width="629" FontFamily="/Assets/Fonts/Pokemon Solid.ttf#Pokemon Solid" FontSize="50" TextAlignment="Center" Foreground="Black"/>
-        </Border>
+            <Border BorderBrush="#F9E162" BorderThickness="10" CornerRadius="35" Margin="73,71,988,791" Background="#FCECB9" MinHeight="100" MinWidth="300">
+                <TextBlock x:Name="NameBox" HorizontalAlignment="Center" TextWrapping="Wrap" Text="StonJourner" VerticalAlignment="Center" Height="170" Width="678" FontFamily="/Assets/Fonts/Pokemon Solid.ttf#Pokemon Solid" FontSize="50" TextAlignment="Center" Foreground="Black" MinHeight="50" MinWidth="50"/>
+            </Border>
 
-        <ListView x:Name="MainListView" Margin="1008,113,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemClick="MainListView_ItemClick" IsItemClickEnabled="True">
-            <ListView.RenderTransform>
-                <CompositeTransform SkewY="0.095" TranslateY="-0.498"/>
-            </ListView.RenderTransform>
-            <ListView.ItemContainerStyle>
-                <Style TargetType="ListViewItem">
+            <ListView x:Name="MainListView" Margin="1008,123,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemClick="MainListView_ItemClick" IsItemClickEnabled="True" MinHeight="500" MinWidth="250">
+                <ListView.RenderTransform>
+                    <CompositeTransform SkewY="0.095" TranslateY="-0.498"/>
+                </ListView.RenderTransform>
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
 
-                    <Setter Property="Template">
-                        <Setter.Value>
-                            <ControlTemplate TargetType="ListViewItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListViewItem">
 
-                                <Grid>
-                                    <Border CornerRadius="32, 2, 2, 32" Margin="4" Padding="10" HorizontalAlignment="Stretch" Width="Auto" Height="65" BorderThickness="2">
-                                        <Border.Background>
-                                            <SolidColorBrush x:Name="NormalBrush" Color="#FCECB9"/>
-                                        </Border.Background>
-                                        <Border.BorderBrush>
-                                            <SolidColorBrush x:Name="BorderBrush" Color="#FCECB9"/>
-                                        </Border.BorderBrush>
+                                    <Grid>
+                                        <Border CornerRadius="32, 2, 2, 32" Margin="4" Padding="10" HorizontalAlignment="Stretch" Width="Auto" Height="65" BorderThickness="2">
+                                            <Border.Background>
+                                                <SolidColorBrush x:Name="NormalBrush" Color="#FCECB9"/>
+                                            </Border.Background>
+                                            <Border.BorderBrush>
+                                                <SolidColorBrush x:Name="BorderBrush" Color="#FCECB9"/>
+                                            </Border.BorderBrush>
 
-                                        <ContentPresenter />
-                                    </Border>
+                                            <ContentPresenter />
+                                        </Border>
 
 
-                                    <VisualStateManager.VisualStateGroups>
-                                        <VisualStateGroup x:Name="CommonStates">
-                                            <VisualState x:Name="Normal"/>
-                                            <VisualState x:Name="PointerOver">
-                                                <Storyboard>
-                                                    <ColorAnimation Storyboard.TargetName="NormalBrush"
+                                        <VisualStateManager.VisualStateGroups>
+                                            <VisualStateGroup x:Name="CommonStates">
+                                                <VisualState x:Name="Normal"/>
+                                                <VisualState x:Name="PointerOver">
+                                                    <Storyboard>
+                                                        <ColorAnimation Storyboard.TargetName="NormalBrush"
                                                     Storyboard.TargetProperty="Color"
                                                     To="#FBB170"
                                                     Duration="0:0:0.2"/>
 
-                                                </Storyboard>
-                                            </VisualState>
-                                            <VisualState x:Name="Pressed"/>
-                                            <VisualState x:Name="Selected">
-                                                <Storyboard>
-                                                    <ColorAnimation Storyboard.TargetName="NormalBrush"
+                                                    </Storyboard>
+                                                </VisualState>
+                                                <VisualState x:Name="Pressed"/>
+                                                <VisualState x:Name="Selected">
+                                                    <Storyboard>
+                                                        <ColorAnimation Storyboard.TargetName="NormalBrush"
                                                     Storyboard.TargetProperty="Color"
                                                     To="#F29842"
                                                     Duration="0"/>
-                                                    <ColorAnimation Storyboard.TargetName="BorderBrush"
+                                                        <ColorAnimation Storyboard.TargetName="BorderBrush"
                                                     Storyboard.TargetProperty="Color"
                                                     To="#FCECB9"
                                                     Duration="0"/>
-                                                </Storyboard>
-                                            </VisualState>
-                                        </VisualStateGroup>
-                                    </VisualStateManager.VisualStateGroups>
-                                </Grid>
+                                                    </Storyboard>
+                                                </VisualState>
+                                            </VisualStateGroup>
+                                        </VisualStateManager.VisualStateGroups>
+                                    </Grid>
 
-                            </ControlTemplate>
-
-
-                        </Setter.Value>
-                    </Setter>
-                    <Setter Property="Foreground" Value="Black"/>
-                    <Setter Property="FontSize" Value="20"/>
-                    <Setter Property="FontFamily" Value="/Assets/Fonts/TeutonNormal.otf#Teuton Normal"/>
-                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                </ControlTemplate>
 
 
-                </Style>
-            </ListView.ItemContainerStyle>
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
-                        <TextBlock TextAlignment="Left" Text="No."/>
-                        <TextBlock TextAlignment="Left" Text="{Binding id}"/>
-                        <TextBlock TextAlignment="Left" Text="{Binding name}"/>
-                    </StackPanel>
-                </DataTemplate>
-            </ListView.ItemTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="Foreground" Value="Black"/>
+                        <Setter Property="FontSize" Value="20"/>
+                        <Setter Property="FontFamily" Value="/Assets/Fonts/TeutonNormal.otf#Teuton Normal"/>
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
 
 
-            <ListViewItem>
-                <TextBlock TextAlignment="Center" Text="No. 048 Wurmple" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </ListViewItem>
-            <ListViewItem>
-                <TextBlock TextAlignment="Center" Text="No. 049 Silicoon" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </ListViewItem>
-            <ListViewItem>
-                <TextBlock TextAlignment="Center" Text="No. 050 Beautifly" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </ListViewItem>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
+                            <TextBlock TextAlignment="Left" Text="No."/>
+                            <TextBlock TextAlignment="Left" Text="{Binding id}"/>
+                            <TextBlock TextAlignment="Left" Text="{Binding name}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
 
-        </ListView>
-        <Border BorderBrush="Black" BorderThickness="2" Margin="-3,-3,-3,966" Background="#639FE1"/>
-        <Border BorderBrush="Black" BorderThickness="2" Margin="-3,1033,-3,-3" Background="#639FE1"/>
 
-        <TextBlock  x:Name="HInfoBox" HorizontalAlignment="Left" Margin="105,883,0,0" TextWrapping="Wrap" FontSize="26" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="787" Text="Height: 
+                <ListViewItem>
+                    <TextBlock TextAlignment="Center" Text="No. 048 Wurmple" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextAlignment="Center" Text="No. 049 Silicoon" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </ListViewItem>
+                <ListViewItem>
+                    <TextBlock TextAlignment="Center" Text="No. 050 Beautifly" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </ListViewItem>
+
+            </ListView>
+            <Border BorderBrush="Black" BorderThickness="2" Margin="-3,-3,-3,1013" Background="#639FE1"/>
+            <Border BorderBrush="Black" BorderThickness="2" Margin="-3,1033,-3,-3" Background="#639FE1"/>
+
+            <TextBlock  x:Name="HInfoBox" HorizontalAlignment="Left" Margin="105,883,0,0" TextWrapping="Wrap" FontSize="26" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="787" Text="Height: 
                     Weight:
                     Color:
                     Gender: "/>
-        <TextBox x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="1011,56,0,0" TextWrapping="Wrap" PlaceholderText="Search by name or id here" VerticalAlignment="Top" Width="912" Height="43" TextChanged="TextBox_TextChanged_1"/>
+            <TextBox x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="1011,67,0,0" TextWrapping="Wrap" PlaceholderText="Search by name or id here" VerticalAlignment="Top" Width="912" Height="22" TextChanged="TextBox_TextChanged_1" MinWidth="100" MinHeight="50"/>
 
 
 
-
-    </Grid>
+        </Grid>
+    </Viewbox>
 </Page>
