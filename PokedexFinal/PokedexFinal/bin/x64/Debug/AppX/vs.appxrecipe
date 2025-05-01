@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-04-29T14:03:53.742</Modified>
+      <Modified>2025-05-01T13:55:04.733</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\bin\x64\Debug\PokedexFinal.exe">
       <PackagePath>entrypoint\PokedexFinal.exe</PackagePath>
-      <Modified>2025-04-29T14:03:52.963</Modified>
+      <Modified>2025-05-01T13:55:03.913</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\js1005915\.nuget\packages\microsoft.bcl.asyncinterfaces\8.0.0\lib\netstandard2.0\Microsoft.Bcl.AsyncInterfaces.dll">
       <PackagePath>Microsoft.Bcl.AsyncInterfaces.dll</PackagePath>
@@ -153,15 +153,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\bin\x64\Debug\PokedexFinal.xr.xml">
       <PackagePath>PokedexFinal.xr.xml</PackagePath>
-      <Modified>2025-04-29T14:03:51.314</Modified>
+      <Modified>2025-05-01T13:55:02.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2025-04-29T14:03:51.338</Modified>
+      <Modified>2025-05-01T13:55:02.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2025-04-29T14:03:51.338</Modified>
+      <Modified>2025-05-01T13:55:02.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.26100.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -173,7 +173,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\js1005915\OneDrive - Ozarks Technical Community College\2025-Spring\CIS-150\Joshua-150\PokedexFinal\PokedexFinal\bin\x64\Debug\Core\PokedexFinal.exe">
       <PackagePath>PokedexFinal.exe</PackagePath>
-      <Modified>2025-04-29T14:03:53.706</Modified>
+      <Modified>2025-05-01T13:55:04.705</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

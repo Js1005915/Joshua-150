@@ -58,11 +58,11 @@ namespace PokedexFinal
             {
                 var fpoke = await PokemonClass.Getpoke(i);
                 
-                PokeList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite });
+                PokeList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite, listsprite = fpoke.listsprite });
 
                 if (listchangeable == true)
                 {
-                    SearchList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite });
+                    SearchList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite, listsprite = fpoke.listsprite});
                 }
 
             }
@@ -162,7 +162,7 @@ namespace PokedexFinal
                 genderdesc = $"F {genderRate * 12.5}% / M {(8 - genderRate) * 12.5}%";
 
 
-            return new PokemonClass { id = aa.Id, name = pname, height = aa.Height, weight = aa.Weight, color = pokecolor, gender = genderdesc, sprite = aa.Sprites.Other.OfficialArtwork.FrontDefault};
+            return new PokemonClass { id = aa.Id, name = pname, height = aa.Height, weight = aa.Weight, color = pokecolor, gender = genderdesc, sprite = aa.Sprites.Other.OfficialArtwork.FrontDefault, listsprite = aa.Sprites.Versions.GenerationIV.Platinum.FrontDefault};
         }
     }
 

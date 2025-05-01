@@ -38,7 +38,7 @@
                                 <ControlTemplate TargetType="ListViewItem">
 
                                     <Grid>
-                                        <Border CornerRadius="32, 2, 2, 32" Margin="4" Padding="10" HorizontalAlignment="Stretch" Width="Auto" Height="65" BorderThickness="2">
+                                        <Border CornerRadius="45, 15, 15, 45" Margin="4" Padding="5" HorizontalAlignment="Stretch" Width="Auto" Height="100" BorderThickness="2">
                                             <Border.Background>
                                                 <SolidColorBrush x:Name="NormalBrush" Color="#FCECB9"/>
                                             </Border.Background>
@@ -85,19 +85,22 @@
                             </Setter.Value>
                         </Setter>
                         <Setter Property="Foreground" Value="Black"/>
-                        <Setter Property="FontSize" Value="20"/>
+                        <Setter Property="FontSize" Value="32"/>
                         <Setter Property="FontFamily" Value="/Assets/Fonts/TeutonNormal.otf#Teuton Normal"/>
                         <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
 
 
                     </Style>
                 </ListView.ItemContainerStyle>
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
-                            <TextBlock TextAlignment="Left" Text="No."/>
-                            <TextBlock TextAlignment="Left" Text="{Binding id}"/>
-                            <TextBlock TextAlignment="Left" Text="{Binding name}"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="20">
+                            <Image HorizontalAlignment="Left" Source="{Binding listsprite}" Width="75" Height="75" VerticalAlignment="Center"/>
+                            <TextBlock TextAlignment="Left" Text="No." Width="50" VerticalAlignment="Center"/>
+                            <TextBlock TextAlignment="Center" Text="{Binding id}" Width="100" VerticalAlignment="Center"/>
+                            <TextBlock TextAlignment="Left" Text="{Binding name}" Width="200" VerticalAlignment="Center"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -128,3 +131,5 @@
         </Grid>
     </Viewbox>
 </Page>
+
+    
