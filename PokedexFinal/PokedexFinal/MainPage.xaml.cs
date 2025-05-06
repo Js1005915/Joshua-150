@@ -70,11 +70,11 @@ namespace PokedexFinal
             {
                 var fpoke = await PokemonClass.Getpoke(i);
                 
-                PokeList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite, listsprite = fpoke.listsprite, EvoChain = fpoke.EvoChain });
+                PokeList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite, listsprite = fpoke.listsprite, EvoChain = fpoke.EvoChain, type = fpoke.type });
 
                 if (listchangeable == true)
                 {
-                    SearchList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite, listsprite = fpoke.listsprite, EvoChain = fpoke.EvoChain });
+                    SearchList.Add(new PokemonClass { id = fpoke.id, name = fpoke.name, height = fpoke.height, weight = fpoke.weight, color = fpoke.color, gender = fpoke.gender, sprite = fpoke.sprite, listsprite = fpoke.listsprite, EvoChain = fpoke.EvoChain, type = fpoke.type });
                 }
 
             }
@@ -89,7 +89,14 @@ namespace PokedexFinal
 
                 selectedPokemon = clickedPokemon;
 
-                HInfoBox.Text = $"Height: {selectedPokemon.height} cm \nWeight: {(selectedPokemon.weight) / 100} gram(s) \nColor: {selectedPokemon.color} \nGender: {selectedPokemon.gender}";
+                string types = "";
+
+                for (int i = 0; i < selectedPokemon.type.Count; i++)
+                {
+                    types = string.Join(", ", selectedPokemon.type);
+                }
+
+                HInfoBox.Text = $"Type(s) {types} \nHeight: {selectedPokemon.height} cm \nWeight: {(selectedPokemon.weight) / 100} gram(s) \nColor: {selectedPokemon.color} \nGender: {selectedPokemon.gender}";
                 NameBox.Text = selectedPokemon.name.ToUpper();
 
                 var uri = new Uri(selectedPokemon.sprite);
@@ -148,15 +155,20 @@ namespace PokedexFinal
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             EVOPopup.IsOpen = true;
+
+
+
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Random rnd = new Random();
-            var maxcount = PokeList.Count;
+            var maxcount = PokeList.Count - 1;
             int ransearch = rnd.Next(1, maxcount);
             SearchTextBox.Text = ransearch.ToString();
         }
+
+
     }
 
 
@@ -171,6 +183,7 @@ namespace PokedexFinal
         public float weight { get; set; }
         public string color { get; set; }
         public string gender { get; set; }
+        public List<string> type { get; set; }
 
         public string sprite { get; set; }
 
@@ -186,9 +199,21 @@ namespace PokedexFinal
         {
             PokeApiClient pokeClient = new PokeApiClient();
 
-            var aa =  await pokeClient.GetResourceAsync<Pokemon>(id);
-            var ac = await pokeClient.GetResourceAsync<PokemonSpecies>(id);
-            var echain = await pokeClient.GetResourceAsync<EvolutionChain>(id);
+            PokeApiNet.Pokemon aa = null;
+            PokeApiNet.PokemonSpecies ac = null;
+
+            try
+            {
+                aa = await pokeClient.GetResourceAsync<Pokemon>(id);
+                ac = await pokeClient.GetResourceAsync<PokemonSpecies>(id);
+            }
+
+            catch(Exception ex)
+            {
+                Debug.WriteLine(ex);
+            }
+            
+            
 
 
             string pname = char.ToUpper(aa.Name[0]) + aa.Name.Substring(1);
@@ -204,6 +229,20 @@ namespace PokedexFinal
             
 
             ;
+
+
+            List<string> Ptypes = new List<string>();
+
+
+            for (int i = 0; i<aa.Types.Count; i++)
+            {
+                Ptypes.Add(aa.Types[i].Type.Name);
+            }
+
+
+
+
+
             
             var imglist = new List<string>();
 
@@ -222,7 +261,7 @@ namespace PokedexFinal
 
 
 
-            return new PokemonClass { id = aa.Id, name = pname, height = aa.Height, weight = aa.Weight, color = pokecolor, gender = genderdesc, sprite = aa.Sprites.Other.OfficialArtwork.FrontDefault, listsprite = aa.Sprites.Versions.GenerationIV.Platinum.FrontDefault, EvoChain = evolutionPaths};
+            return new PokemonClass { id = aa.Id, name = pname, height = aa.Height, weight = aa.Weight, color = pokecolor, gender = genderdesc, sprite = aa.Sprites.Other.OfficialArtwork.FrontDefault, listsprite = aa.Sprites.Versions.GenerationIV.Platinum.FrontDefault, EvoChain = evolutionPaths, type = Ptypes};
         }
 
 

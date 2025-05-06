@@ -120,14 +120,21 @@
             <Border BorderBrush="Black" BorderThickness="2" Margin="-3,-3,-3,1013" Background="#639FE1"/>
             <Border BorderBrush="Black" BorderThickness="2" Margin="-3,1033,-3,-3" Background="#639FE1"/>
 
-            <TextBlock  x:Name="HInfoBox" HorizontalAlignment="Left" Margin="105,883,0,0" TextWrapping="Wrap" FontSize="26" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="787"/>
+            <TextBlock  x:Name="HInfoBox" HorizontalAlignment="Left" Margin="105,883,0,0" TextWrapping="Wrap" FontSize="20" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="373"/>
             <TextBox x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="1011,67,0,0" TextWrapping="Wrap" PlaceholderText="Search by name, id, color, or gender, for gender do F or M + % Ex(F 100)" VerticalAlignment="Top" Width="912" Height="22" TextChanged="TextBox_TextChanged_1" MinWidth="100" MinHeight="50"/>
             <Button Content="More Info" Margin="488,890,0,0" VerticalAlignment="Top" Height="84" Width="441" BorderThickness="10" BorderBrush="#F9E162" CornerRadius="35" FontSize="32" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" Foreground="Black" Click="Button_Click"/>
 
             <Popup x:Name="EVOPopup" IsLightDismissEnabled="True" IsOpen="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="auto" Height="auto" >
                 <Grid Background="#639FE1" BorderBrush="#F9E162" BorderThickness="10" Width="1200" Height="600" CornerRadius="35">
                     <TextBlock x:Name="EvolutionTXBX" Text="TESTING" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" FontSize="46" Foreground="Black" Width="auto" Height="auto" TextAlignment="Center"/>
-
+                    <Image x:Name="img1"/>
+                    <Image x:Name="img2"/>
+                    <Image x:Name="img3"/>
+                    <Image x:Name="img4"/>
+                    <Image x:Name="img5"/>
+                    <Image x:Name="img6"/>
+                    <Image x:Name="img7"/>
+                    <Image x:Name="img8"/>
                 </Grid>
             </Popup>
             <Button Content="Random" Margin="1683,0,0,0" VerticalAlignment="Top" Width="227"  BorderThickness="10" BorderBrush="#F9E162" CornerRadius="20" FontSize="32" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" Foreground="Black" Height="62" Click="Button_Click_1"/>
