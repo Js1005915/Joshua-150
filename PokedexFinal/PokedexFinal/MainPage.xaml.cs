@@ -34,8 +34,8 @@ namespace PokedexFinal
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        public ObservableCollection<PokemonClass> PokeList = new ObservableCollection<PokemonClass>();
-        public ObservableCollection<PokemonClass> SearchList = new ObservableCollection<PokemonClass>();
+        public static ObservableCollection<PokemonClass> PokeList = new ObservableCollection<PokemonClass>();
+        public static ObservableCollection<PokemonClass> SearchList = new ObservableCollection<PokemonClass>();
         public bool listchangeable = true;
 
         public PokemonClass selectedPokemon { get; set; }
@@ -114,9 +114,9 @@ namespace PokedexFinal
                 foreach (var x in selectedPokemon.EvoChain)
                 {
                     EvolutionTXBX.Text = x;
-                    if (x == selectedPokemon.name)
+                    if (x == null)
                     {
-                        EvolutionTXBX.FontWeight = FontWeights.Bold;
+                        EvolutionTXBX.Text = "Failed to load, sorry.";
                     }
                     
                 }
@@ -202,66 +202,103 @@ namespace PokedexFinal
             PokeApiNet.Pokemon aa = null;
             PokeApiNet.PokemonSpecies ac = null;
 
+            var evolutionPaths = new List<string>();
+
+
+            int Pid = 0;
+
+            string pname = null;
+
+            int Pheight = 0;
+
+            int Pweight = 0;
+            
+            string pokecolor = null;
+            
+            string genderdesc = null;
+            
+            List<string> Ptypes = new List<string>();
+
+            PokeApiNet.PokemonSprites.OtherSprites Front_Image = null;
+
+
+
+
             try
             {
                 aa = await pokeClient.GetResourceAsync<Pokemon>(id);
+
                 ac = await pokeClient.GetResourceAsync<PokemonSpecies>(id);
+
+                pname = char.ToUpper(aa.Name[0]) + aa.Name.Substring(1);
+
+                Pid = aa.Id;
+                Pheight = aa.Height;
+                Pweight = aa.Weight;
+
+
+
+                int genderRate = ac.GenderRate;
+                
+                pokecolor = ac.Color.Name;
+                if (genderRate == -1)
+                    genderdesc = "Genderless";
+                else
+                    genderdesc = $"F {genderRate * 12.5}% / M {(8 - genderRate) * 12.5}%";
+
+
+
+                ;
+
+
+                
+
+
+                for (int i = 0; i < aa.Types.Count; i++)
+                {
+                    Ptypes.Add(aa.Types[i].Type.Name);
+                }
+
+
+
+
+
+                var evurl = ac.EvolutionChain.Url;
+                
+                var chainId = int.Parse(evurl.TrimEnd('/').Split('/').Last());
+                
+                var plswork = await pokeClient.GetResourceAsync<EvolutionChain>(chainId);
+                
+                
+                
+                BuildEvolutionPaths(plswork.Chain, new List<string>(), evolutionPaths);
             }
 
             catch(Exception ex)
             {
                 Debug.WriteLine(ex);
             }
-            
-            
 
-
-            string pname = char.ToUpper(aa.Name[0]) + aa.Name.Substring(1);
-
-            int genderRate = ac.GenderRate;
-            string genderdesc;
-            var pokecolor = ac.Color.Name;
-            if (genderRate == -1)
-                genderdesc = "Genderless";
-            else
-                genderdesc = $"F {genderRate * 12.5}% / M {(8 - genderRate) * 12.5}%";
-
-            
-
-            ;
-
-
-            List<string> Ptypes = new List<string>();
-
-
-            for (int i = 0; i<aa.Types.Count; i++)
-            {
-                Ptypes.Add(aa.Types[i].Type.Name);
-            }
-
-
-
-
-
-            
             var imglist = new List<string>();
 
 
-            var evurl = ac.EvolutionChain.Url;
+            
 
-            var chainId = int.Parse(evurl.TrimEnd('/').Split('/').Last());
+            
 
-            var plswork = await pokeClient.GetResourceAsync<EvolutionChain>(chainId);
+            
 
+       
 
-            var evolutionPaths = new List<string>();
-            BuildEvolutionPaths(plswork.Chain, new List<string>(), evolutionPaths);
-
-
-
+            
+            
 
 
-            return new PokemonClass { id = aa.Id, name = pname, height = aa.Height, weight = aa.Weight, color = pokecolor, gender = genderdesc, sprite = aa.Sprites.Other.OfficialArtwork.FrontDefault, listsprite = aa.Sprites.Versions.GenerationIV.Platinum.FrontDefault, EvoChain = evolutionPaths, type = Ptypes};
+            
+
+
+
+            return new PokemonClass { id = Pid, name = pname, height = Pheight, weight = Pweight, color = pokecolor, gender = genderdesc, sprite = aa.Sprites.Other.OfficialArtwork.FrontDefault, listsprite = aa.Sprites.Versions.GenerationIV.Platinum.FrontDefault, EvoChain = evolutionPaths, type = Ptypes};
         }
 
 
@@ -278,7 +315,7 @@ namespace PokedexFinal
             {
                 foreach (var child in node.EvolvesTo)
                 {
-                    // Clone the current path for each branch
+
                     BuildEvolutionPaths(child, new List<string>(currentPath), resultPaths);
                 }
             }
@@ -286,6 +323,48 @@ namespace PokedexFinal
 
 
     }
+
+
+
+
+
+
+
+
+
+    // csv time, why must i hate myself, please god let this be good enough for extra credit and missed work im dying
+
+    public class CsvWrite 
+    {
+        
+
+
+
+
+        public async Task WriteCSVAsync()
+        {
+            var headers = new string[] { "id", "name", "height", "weight", "color", "gender", "type", "sprite", "listsprite", "evolution chain" };
+            var CSVLIST = new ObservableCollection<PokemonClass>();
+
+            for (int i = 0; i < 1025; i++)
+            {
+                var rows = new List<string[]>
+                {
+                    new string[] { MainPage.PokeList[i].id.ToString(), CSVLIST[i].name.ToString(), CSVLIST[i].height.ToString(), CSVLIST[i].weight.ToString(), CSVLIST[i].color.ToString(), CSVLIST[i].gender.ToString(), CSVLIST[i].type.ToString(), CSVLIST[i].sprite.ToString(), CSVLIST[i].listsprite.ToString(), CSVLIST[i].EvoChain.ToString() }
+                };
+            }
+
+
+
+            
+        }
+    }
+
+
+
+
+
+
 
 
 

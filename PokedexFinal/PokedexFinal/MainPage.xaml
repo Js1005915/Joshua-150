@@ -26,7 +26,7 @@
                 <TextBlock x:Name="NameBox" HorizontalAlignment="Center" TextWrapping="Wrap"  VerticalAlignment="Center" Height="170" Width="678" FontFamily="/Assets/Fonts/Pokemon Solid.ttf#Pokemon Solid" FontSize="50" TextAlignment="Center" Foreground="Black" MinHeight="50" MinWidth="50"/>
             </Border>
 
-            <ListView x:Name="MainListView" Margin="1008,123,0,46" BorderBrush="Black" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemClick="MainListView_ItemClick" IsItemClickEnabled="True" MinHeight="500" MinWidth="250">
+            <ListView x:Name="MainListView" Margin="1008,123,0,46" BorderThickness="2" ScrollViewer.VerticalScrollBarVisibility="Visible" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" ItemClick="MainListView_ItemClick" IsItemClickEnabled="True" MinHeight="500" MinWidth="250">
                 <ListView.RenderTransform>
                     <CompositeTransform SkewY="0.095" TranslateY="-0.498"/>
                 </ListView.RenderTransform>
