@@ -24,6 +24,9 @@ using System.Security.Claims;
 using Windows.Media.Protection.PlayReady;
 using Windows.UI.Xaml.Documents;
 using Windows.UI.Text;
+using System.Numerics;
+using System.ComponentModel.Design;
+using System.Linq.Expressions;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -97,7 +100,11 @@ namespace PokedexFinal
                 }
 
                 HInfoBox.Text = $"Type(s) {types} \nHeight: {selectedPokemon.height} cm \nWeight: {(selectedPokemon.weight) / 100} gram(s) \nColor: {selectedPokemon.color} \nGender: {selectedPokemon.gender}";
-                NameBox.Text = selectedPokemon.name.ToUpper();
+                if (selectedPokemon.name != null)
+                {
+                    NameBox.Text = selectedPokemon.name.ToUpper();
+                }
+                
 
                 var uri = new Uri(selectedPokemon.sprite);
                 var bitmap = new BitmapImage(uri);
@@ -145,9 +152,46 @@ namespace PokedexFinal
 
             foreach ( var poke in PokeList )
             {
-                if (poke.name.ToLower().Contains(query) || (poke.id.ToString().Contains(query)) || (poke.color.ToLower().Contains(query)) || (poke.gender.ToLower().Contains(query)))
+                var big = "null";
+                if (poke.type.Count == 2)
                 {
-                    SearchList.Add(poke);
+                    big = poke.type[1];
+                }
+                else
+                {
+                    big = "null";
+                }
+
+                string pokename = null;
+                int pokeid = 0;
+                string pokecolor = null;
+                string pokegender = null;
+                string poketype = null;
+
+                try
+                {
+                    pokename = poke.name;
+                    pokeid = poke.id;
+                    pokecolor = poke.color;
+                    pokegender = poke.gender;
+                    poketype = poke.type[0];
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex);
+                }
+
+
+                try
+                {
+                    if (pokename != null & pokename.ToLower().Contains(query) || (pokeid != 0 & pokeid.ToString().Contains(query)) || (pokecolor != null & pokecolor.ToLower().Contains(query)) || (pokegender != null & pokegender.ToLower().Contains(query)) || (poketype != null & poketype.ToLower().Contains(query)) || big != null & (big.ToLower().Contains(query)))
+                    {
+                        SearchList.Add(poke);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Debug.WriteLine(ex);
                 }
             }
         }
@@ -219,7 +263,9 @@ namespace PokedexFinal
             
             List<string> Ptypes = new List<string>();
 
-            PokeApiNet.PokemonSprites.OtherSprites Front_Image = null;
+            string Front_Image = null;
+
+            string SpriteListFront = null;
 
 
 
@@ -235,6 +281,9 @@ namespace PokedexFinal
                 Pid = aa.Id;
                 Pheight = aa.Height;
                 Pweight = aa.Weight;
+
+                Front_Image = aa.Sprites.Other.OfficialArtwork.FrontDefault;
+                SpriteListFront = aa.Sprites.FrontDefault;
 
 
 
@@ -298,7 +347,7 @@ namespace PokedexFinal
 
 
 
-            return new PokemonClass { id = Pid, name = pname, height = Pheight, weight = Pweight, color = pokecolor, gender = genderdesc, sprite = aa.Sprites.Other.OfficialArtwork.FrontDefault, listsprite = aa.Sprites.Versions.GenerationIV.Platinum.FrontDefault, EvoChain = evolutionPaths, type = Ptypes};
+            return new PokemonClass { id = Pid, name = pname, height = Pheight, weight = Pweight, color = pokecolor, gender = genderdesc, sprite = Front_Image, listsprite = SpriteListFront, EvoChain = evolutionPaths, type = Ptypes};
         }
 
 
@@ -331,7 +380,7 @@ namespace PokedexFinal
 
 
 
-
+    
     // csv time, why must i hate myself, please god let this be good enough for extra credit and missed work im dying
 
     public class CsvWrite 

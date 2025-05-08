@@ -121,7 +121,7 @@
             <Border BorderBrush="Black" BorderThickness="2" Margin="-3,1033,-3,-3" Background="#639FE1"/>
 
             <TextBlock x:ConnectionId='4'  x:Name="HInfoBox" HorizontalAlignment="Left" Margin="105,883,0,0" TextWrapping="Wrap" FontSize="20" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" VerticalAlignment="Top" Height="122" Width="373"/>
-            <TextBox x:ConnectionId='5' x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="1011,67,0,0" TextWrapping="Wrap" PlaceholderText="Search by name, id, color, or gender, for gender do F or M + % Ex(F 100)" VerticalAlignment="Top" Width="912" Height="22"                                     MinWidth="100" MinHeight="50"/>
+            <TextBox x:ConnectionId='5' x:Name="SearchTextBox" HorizontalAlignment="Left" Margin="1011,67,0,0" TextWrapping="Wrap" PlaceholderText="Search by name, type, id, color, or gender, for gender do F or M + % Ex(F 100)" VerticalAlignment="Top" Width="912" Height="22"                                     MinWidth="100" MinHeight="50"/>
             <Button x:ConnectionId='6' Content="More Info" Margin="488,890,0,0" VerticalAlignment="Top" Height="84" Width="441" BorderThickness="10" BorderBrush="#F9E162" CornerRadius="35" FontSize="32" FontFamily="/Assets/Fonts/TeutonNormal.otf#Teuton Normal" Foreground="Black"                     />
 
             <Popup x:ConnectionId='7' x:Name="EVOPopup" IsLightDismissEnabled="True" IsOpen="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Width="auto" Height="auto" >
